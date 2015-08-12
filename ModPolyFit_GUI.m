@@ -126,6 +126,8 @@ if handles.linesDrawn1 ~= false
         elseif eventdata.VerticalScrollCount > 0
             xChange = (xMax1 - xMin1) * 1.1 / 2;   
             yChange = (yMax1 - yMin1) * 1.1 / 2;
+        else
+            return;
         end
 
         xMin1 = x - xChange; xMax1 = x + xChange;
@@ -140,8 +142,9 @@ if handles.linesDrawn1 ~= false
            [handles.horizline1, handles.vertline1] = drawCross(x, y, handles.OutputPlot1);
         end
     end
+end
 
-elseif handles.linesDrawn2 ~= false
+if handles.linesDrawn2 ~= false
 
     x = handles.xClick2;
     y = handles.yClick2;
