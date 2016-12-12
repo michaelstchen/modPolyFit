@@ -17,9 +17,9 @@ To Run:
   5. Plot
   
 Notes:
-  -Top spectrum displays the result of subtracting the background.
-  -Bottom spectrum shows the subtracted background overlaid on the original spectrum
-  -Left click on the spectrum will display the coordinates of the clicked point at the top left
+  - Top spectrum displays the result of subtracting the background.
+  - Bottom spectrum shows the subtracted background overlaid on the original spectrum
+  - Left click on the spectrum will display the coordinates of the clicked point at the top left
    of the plot (crosshairs indicate position clicked).
-  -Mouse wheel scroll is used to zoom in and out, centered about the point where the current crosshairs are
+  - Mouse wheel scroll is used to zoom in and out, centered about the point where the current crosshairs are
    set on.
